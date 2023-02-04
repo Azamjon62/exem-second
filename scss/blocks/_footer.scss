@@ -92,3 +92,103 @@
     }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+    
+    .section__footer{
+        height: 393px;
+        background-color: #1D1C1E;
+
+        &__flex{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 144px;
+
+            &__logo{
+
+                &__a{
+                    display: flex;
+                    align-items: center;
+
+                    &-span{
+                        margin-left: 16px;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 27px;
+                        letter-spacing: 5px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &__nav{
+                &__ul{
+                    display: flex;
+                    gap: 42px;
+                    list-style: none;
+
+                    &__li{
+                        &-a{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 14px;
+                            letter-spacing: 2px;
+                            color: #FFFFFF;
+
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .hr{
+            margin-top: 40px;
+            margin-bottom: 31px;
+        }
+
+
+        &__address{
+            display: flex;
+            justify-content: space-between;
+
+            &__wrapper{
+                font-weight: 700;
+                // font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+                opacity: 0.5;
+            }
+
+            &__connection{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+                opacity: 0.5;
+            }
+
+            &__icon{
+                display: flex;
+                align-items: flex-end;
+                gap: 16px;
+
+                .bx{
+                    font-size: 38px;
+                    color: #E7816B;
+                    transition: 0.3s;
+
+                    &:hover{
+                        color: #FFAD9B;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
