@@ -867,6 +867,7 @@ header .header__flex__ul--li-item:hover {
     z-index: 999;
   }
   .section__company__img__a-img {
+    margin-left: 35px;
     margin-top: 19px;
   }
   .section__locations {
