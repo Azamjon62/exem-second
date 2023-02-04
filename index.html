@@ -12,6 +12,7 @@
     <div class="fixed" >
         <header>
             <div class="header__flex container" >
+
                 <div class="header__flex__logo" >
                     <a class="header__flex__logo__a" href="#">
                         <img src="./img/Oval-foo.png" alt="logo">
@@ -26,6 +27,15 @@
                         <li class="header__flex__ul--li"><a class="header__flex__ul--li-item" href="#">CONTACT</a></li>
                     </ul>
                 </nav>
+
+
+                <div class="burger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+
             </div>
         </header>
     </div>
@@ -118,9 +128,8 @@
                         </h3>
                     
                         <p class="card__body-text active">
-                            Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We
-                            merge
-                            art, design, and technology into exciting new solutions.
+                            We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we
+                            strive to give them the best experience a company can provide.
                         </p>
                     </div>
                 </div>
@@ -155,57 +164,65 @@
                 </div>
             </div>
         </div>
-
-        
-        <footer>
-            <div class="section__footer" >
-                <div class="section__footer__flex container" >
-                    <div class="section__footer__flex__logo" >
-                        <a class="section__footer__flex__logo__a" href="#">
-                            <img class="section__footer__flex__logo__a-img" src="./img/Oval-foo.png" alt="">
-                            <span class="section__footer__flex__logo__a-span" >DESIGNO</span>
-                        </a>
-                    </div>
-                    
-                    <nav class="section__footer__flex__nav" >
-                        <ul class="section__footer__flex__nav__ul" >
-                            <li class="section__footer__flex__nav__ul__li" ><a class="section__footer__flex__nav__ul__li-a" href="#">OUR COMPANY</a></li>
-                            <li class="section__footer__flex__nav__ul__li" ><a class="section__footer__flex__nav__ul__li-a" href="#">LOCATIONS</a></li>
-                            <li class="section__footer__flex__nav__ul__li" ><a class="section__footer__flex__nav__ul__li-a" href="#">CONTACT</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-
-                <hr class="container hr">
-
-                <div class="container section__footer__address" >
-                    <div class="section__footer__address__wrapper" >
-                        <p><b>Designo Central Office</b></p>
-                        <p>3886 Wellington Street</p>
-                        <p>Toronto, Ontario M9C 3J5</p>
-                    </div>
-
-                    <div class="section__footer__address__connection" >
-                        <p><b>Contact Us (Central Office)</b></p>
-                        <p><b>P : +1 253-863-8967</b></p>
-                        <p><b>M : contact@designo.com</b></p>
-                    </div>
-
-                    <div class="section__footer__address__icon" >
-                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
-                        <a href="#"><i class='bx bxl-youtube'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-pinterest'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
-
-
     </main>
+
+            <footer>
+                <div class="section__footer">
+                    <div class="section__footer__flex container">
+                        <div class="section__footer__flex__logo">
+                            <a class="section__footer__flex__logo__a" href="#">
+                                <img class="section__footer__flex__logo__a-img" src="./img/Oval-foo.png" alt="">
+                                <span class="section__footer__flex__logo__a-span">DESIGNO</span>
+                            </a>
+                        </div>
+            
+                        <nav class="section__footer__flex__nav">
+                            <ul class="section__footer__flex__nav__ul">
+                                <li class="section__footer__flex__nav__ul__li"><a class="section__footer__flex__nav__ul__li-a"
+                                        href="#">OUR COMPANY</a></li>
+                                <li class="section__footer__flex__nav__ul__li"><a class="section__footer__flex__nav__ul__li-a"
+                                        href="#">LOCATIONS</a></li>
+                                <li class="section__footer__flex__nav__ul__li"><a class="section__footer__flex__nav__ul__li-a"
+                                        href="#">CONTACT</a></li>
+                            </ul>
+                        </nav>
+            
+                    </div>
+            
+                    <hr class="container hr">
+            
+                    <div class="container section__footer__address">
+                        <div class="section__footer__address__wrapper">
+                            <p><b>Designo Central Office</b></p>
+                            <p>3886 Wellington Street</p>
+                            <p>Toronto, Ontario M9C 3J5</p>
+                        </div>
+            
+                        <div class="section__footer__address__connection">
+                            <p><b>Contact Us (Central Office)</b></p>
+                            <p><b>P : +1 253-863-8967</b></p>
+                            <p><b>M : contact@designo.com</b></p>
+                        </div>
+            
+                        <div class="section__footer__address__icon">
+                            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                            <a href="#"><i class='bx bxl-youtube'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                    </div>
+            
+                </div>
+            </footer>
+
+
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+
 
 </body>
 </html>
