@@ -725,4 +725,8 @@ header .header__flex__ul--li-item:hover {
   text-transform: uppercase;
   color: #333136;
   cursor: pointer;
+  transition: 0.2s;
+}
+.advitizing__project__btn-btns:hover {
+  background: #FFAD9B;
 }/*# sourceMappingURL=style.css.map */

@@ -365,6 +365,11 @@
                 text-transform: uppercase;
                 color: #333136;
                 cursor: pointer;
+                transition: 0.2s;
+
+                &:hover{
+                    background: #FFAD9B;
+                }
             }
         }
     }
