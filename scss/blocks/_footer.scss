@@ -60,10 +60,13 @@
 
         &__wrapper{
             font-weight: 700;
-            // font-size: 16px;
             line-height: 26px;
             color: #FFFFFF;
             opacity: 0.5;
+
+            &-p{
+                font-weight: 300;
+            }
         }
 
         &__connection{
@@ -157,10 +160,13 @@
 
             &__wrapper{
                 font-weight: 700;
-                // font-size: 16px;
                 line-height: 26px;
                 color: #FFFFFF;
                 opacity: 0.5;
+
+                &-p{
+                    font-weight: 300;
+                }
             }
 
             &__connection{
@@ -275,6 +281,10 @@
                 line-height: 26px;
                 color: #FFFFFF;
                 opacity: 0.5;
+                
+                &-p{
+                    font-weight: 300;
+                }
             }
 
             &__connection{

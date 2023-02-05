@@ -495,6 +495,9 @@ header .header__flex .change .bar3 {
   color: #FFFFFF;
   opacity: 0.5;
 }
+.section__footer__address__wrapper-p {
+  font-weight: 300;
+}
 .section__footer__address__connection {
   font-weight: 700;
   font-size: 16px;
@@ -566,6 +569,9 @@ header .header__flex .change .bar3 {
     line-height: 26px;
     color: #FFFFFF;
     opacity: 0.5;
+  }
+  .section__footer__address__wrapper-p {
+    font-weight: 300;
   }
   .section__footer__address__connection {
     font-weight: 700;
@@ -653,6 +659,9 @@ header .header__flex .change .bar3 {
     line-height: 26px;
     color: #FFFFFF;
     opacity: 0.5;
+  }
+  .section__footer__address__wrapper-p {
+    font-weight: 300;
   }
   .section__footer__address__connection {
     text-align: center;
